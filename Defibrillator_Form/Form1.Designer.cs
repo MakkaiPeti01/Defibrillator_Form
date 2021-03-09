@@ -61,26 +61,27 @@ namespace Defibrillator_Form
             // 
             // tb_X
             // 
-            this.tb_X.Location = new System.Drawing.Point(157, 117);
+            this.tb_X.Location = new System.Drawing.Point(236, 117);
             this.tb_X.Name = "tb_X";
             this.tb_X.Size = new System.Drawing.Size(124, 26);
             this.tb_X.TabIndex = 2;
             // 
             // tb_Y
             // 
-            this.tb_Y.Location = new System.Drawing.Point(157, 167);
+            this.tb_Y.Location = new System.Drawing.Point(236, 167);
             this.tb_Y.Name = "tb_Y";
             this.tb_Y.Size = new System.Drawing.Size(124, 26);
             this.tb_Y.TabIndex = 3;
             // 
             // btn_Adatok
             // 
-            this.btn_Adatok.Location = new System.Drawing.Point(130, 221);
+            this.btn_Adatok.Location = new System.Drawing.Point(162, 224);
             this.btn_Adatok.Name = "btn_Adatok";
             this.btn_Adatok.Size = new System.Drawing.Size(182, 34);
             this.btn_Adatok.TabIndex = 4;
             this.btn_Adatok.Text = "Adatok lekérése";
             this.btn_Adatok.UseVisualStyleBackColor = true;
+            this.btn_Adatok.Click += new System.EventHandler(this.btn_Adatok_Click);
             // 
             // lbKiir
             // 
