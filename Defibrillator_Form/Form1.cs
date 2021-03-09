@@ -53,7 +53,6 @@ namespace Defibrillator_Form
                     ));
             }
             olvas.Close();
-            Console.WriteLine();
         }
     }
 }

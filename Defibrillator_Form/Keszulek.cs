@@ -8,6 +8,8 @@ namespace Defibrillator_Form
 {
     class Keszulek
     {
+        private Defibrillator defi;
+
         private int id;
 
         public int ID
